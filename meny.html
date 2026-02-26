@@ -11,7 +11,10 @@
 <body>
 
 <header class="header">
-  <div class="logo">Fjäll & Fika</div>
+  <div class="logo">
+    <img src="images/fjallochfika-logo.svg" alt="logo">
+    <p>Fjäll & Fika</p>
+  </div>
   <button class="menu-toggle">☰</button>
   <nav class="nav">
     <a href="index.html">Hem</a>
@@ -21,35 +24,143 @@
   </nav>
 </header>
 
-<main class="content">
-  <h2>Meny</h2>
+<main>
+  <section class="hero hero-meny">
+    <div class="hero-text">
+      <h1>Vår meny</h1>
+    </div>
+  </section>
 
-  <h3>🧇 Våfflor</h3>
-  <ul>
-    <li>Klassisk våffla med sylt & grädde</li>
-    <li>Våffla med hjortron</li>
-    <li>Vegansk våffla med bär</li>
-  </ul>
+  <!-- 🧇 FRASIGA VÅFFLOR — 2 ROWS (6 ITEMS) -->
+    <section class="menu-section">
+    <h2>🧇 Frasiga Våfflor</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/veg-våffla.jpg" alt="Vegansk våffla">
+        <div class="card-body">
+          <div class="item-line">
+            <h3>Vegansk våffla</h3>
+            <span class="price">129 kr</span>
+          </div>
+        </div>
+      </div>
 
-  <h3>🍔 Hemburgare</h3>
-  <ul>
-    <li>Klassisk hemburgare</li>
-    <li>Fjällburgare med svamp & lingon</li>
-    <li>Vegetarisk burgare</li>
-  </ul>
+      <div class="card">
+        <img src="images/klassisk.webp" alt="Hjortronvåffla">
+        <div class="card-body">
+          <div class="item-line">
+            <h3>Klassisk våffla</h3>
+            <span class="price">139 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/våffle-sandwich .jpg" alt="Fjällvåfflebugar">
+        <div class="card-body">
+          <div class="item-line">
+            <h3>Fjällvåfflebugar</h3>
+            <span class="price">149 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/hero.jpg" alt="Laxvåffla">
+        <div class="card-body">
+          <div class="item-line">
+            <h3>Laxvåffla</h3>
+            <span class="price">189 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/skågen.jpeg" alt="Nutellavåffla">
+        <div class="card-body">
+          <div class="item-line">
+            <h3>Skagenvåffla</h3>
+            <span class="price">199 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/rom-våffla.jpeg" alt="Löjromsvåffla">
+        <div class="card-body">
+          <div class="item-line">
+            <h3>Löjromsvåffla</h3>
+            <span class="price">220 kr</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 🍕 FRASIG PIZZA & FOCACCIA — 3 ROWS (9 ITEMS) -->
+  <section class="menu-section">
+    <h2>🍕 Frasig Pizza & Focaccia</h2>
+    <div class="grid">
+
+      <!-- 9 CARDS -->
+      <div class="card"><img src="images/pizza1.jpg">
+        <div class="card-body item-line">
+          <h3>Mortadella</h3><span class="price">189 kr</span></div>
+        </div>
+      <div class="card"><img src="images/pizza2.jpg">
+        <div class="card-body item-line">
+          <h3>Prosciutto</h3><span class="price">189 kr</span></div></div>
+
+      <div class="card"><img src="images/pizza3.jpg"><div class="card-body item-line"><h3>Vegansk Pizza</h3><span class="price">189 kr</span></div></div>
+
+      <div class="card"><img src="images/napolitansk.png"><div class="card-body item-line"><h3>Napolitansk</h3><span class="price">209 kr</span></div></div>
+
+      <div class="card"><img src="images/carpaccio.jpg"><div class="card-body item-line"><h3>Carpaccio</h3><span class="price">209 kr</span></div></div>
+
+      <div class="card"><img src="images/bresaola.JPG"><div class="card-body"><h3>Bresaola</h3><span class="price">209 kr</span></div></div>
+
+      <div class="card"><img src="images/focaccia-breasola.jpg"><div class="card-body item-line"><h3>Focaccia breasola</h3><span class="price">219 kr</span></div></div>
+
+      <div class="card"><img src="images/Focaccia-veg.jpg">
+        <div class="card-body item-line"><h3> Vegansk Focaccia</h3><span class="price">229 kr</span></div></div>
+
+      <div class="card"><img src="images/Focaccia-Caponata-Tuna.jpg"><div class="card-body item-line"><h3>Focassia caponata & tonfisk</h3><span class="price">239 kr</span></div></div>
+
+    </div>
+  </section>
+
+
+  <!-- ☕ SMARRIG FIKA — 2 ROWS (6 ITEMS) -->
+  <section class="menu-section">
+    <h2>☕ Smarrig Fika</h2>
+    <div class="grid">
+
+      <div class="card"><img src="images/backcoffee.jpg"><div class="card-body item-line"><h3>Kaffe / Te</h3><span class="price">38 kr</span></div></div>
+
+      <div class="card"><img src="images/kanelbulle.jpg"><div class="card-body item-line"><h3>Nybakade bullar</h3><span class="price">49 kr</span></div></div>
+
+      <div class="card"><img src="images/hot-drink.jpg"><div class="card-body item-line"><h3>Varm choklad</h3><span class="price">59 kr</span></div></div>
+
+      
+
+    </div>
+  </section>
+
+  
 </main>
 
 <footer class="footer">
   <div class="footer-top">
     <div class="footer-column logo-column">
-      <h2>Fjäll & Fika</h2>
-      <p>Fika med omtanke – mitt i fjällen</p>
+      <img src="images/fjallochfika-logo.svg" alt="logo">
+      <p>Fjäll & Fika</p>
     </div>
 
     <div class="footer-column contact-column">
       <h3>Kontakt</h3>
       <p>📍 Fjällvägen 12, Fjällbyn</p>
-      <p>📞 070–123 45 67</p>
+      <p>📞 070-123 45 67</p>
       <p>✉ hej@fjallochfika.se</p>
     </div>
 
