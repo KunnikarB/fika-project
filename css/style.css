@@ -30,7 +30,7 @@ body {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 170px;      /* below header */
+  top: 160px;      /* below header */
   left: 0;        /* stick to left side */
   background: #f5f4f0;
   width: 220px;
